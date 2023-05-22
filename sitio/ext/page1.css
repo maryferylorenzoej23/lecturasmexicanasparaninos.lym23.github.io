@@ -1,0 +1,124 @@
+body{
+	background-color:#2E97AE;
+}
+#est{
+    font-family:fantasy; 
+    font-size: 85px;
+    position: absolute;
+  top: 30%;
+  left: 9%;
+  margin: -10px 0 0 -10px;
+}
+#esti{
+    background-color: #E8DAEF ;
+}
+.estilos{
+    background-color: #B2DBE4 ;
+}
+
+.bg-custom{
+	background-color: #1C4F77 ;
+}
+.nav-link{
+	background-color:#E2ECF3;
+}
+
+
+#fam{
+    font-size: 20px;
+    font-family: optima;
+    position: sticky;
+    top: 45%;
+    left: 5%;
+}
+#moda{
+    font-family:brush script MT; 
+    font-size: 50px;
+    background-color: #FFE4E1;
+}
+#enc{
+    background-color: #FFE4E1;
+    position: absolute;
+    top: 8%;
+  left: 66%;
+}
+#pt{
+    background-color: #F8F8FF;
+}
+.jeans{
+    width: 250px ;
+    left: 100px;
+}
+#hym{
+    width: 75px ;
+    left: 100px;
+    
+}
+.pato{
+    font-family: "HM Sans Regular", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+#cha{
+    width: 150px ;
+    left: 100px;
+}
+#pat{
+ background-color: #E6E6FA;
+}
+#papel{
+    background-color: 	#ADD8E6;
+}
+#papelito{
+    font-family:brush script MT; 
+    font-size: 50px;
+    position: absolute;
+  top: 13%;
+  left: 10%;
+  margin: -10px 0 0 -10px;
+}
+#cuadro{
+    width: 450px ;
+    left: 100px;
+}
+#bomer{
+    width: 450px ;
+    left: 100px;
+}
+#j{
+    width: 450px ;
+    left: 100px;
+}
+#color{
+    background-color: #E6E6FA;
+}
+#button{
+    font-family:brush script MT; 
+    font-size: 30px;
+}
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+[data-title]:after {
+    content: attr(data-title);
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    font-family: Helvetica;
+    position: absolute;
+    padding: 3px 20px;
+    bottom: -1.6em;
+    left: 100%;
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0;
+    border: 1px solid #111111;
+    z-index: 99999;
+    visibility: hidden;
+    border-radius: 6px;
+    
+}
+[data-title] {
+    position: relative;
+}
